@@ -17,7 +17,7 @@ jobs:
         env:
           SSH_DEPLOY_KEY: ${{ secrets.FENRIR_API_DOTNET_SSH_DEPLOY_KEY }}
         with:
-          source-directory: '.apispec'
+          source-directory: 'output/csharp'
           destination-github-username: 'fenrirserver'
           destination-repository-name: 'Fenrir.Api.DotNet'
           user-email: bot@fenrircloud.com
