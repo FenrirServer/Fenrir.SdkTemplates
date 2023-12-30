@@ -1,0 +1,17 @@
+inputSpec: https://raw.githubusercontent.com/FenrirServer/openapi/master/fenrir-openapi-spec.yaml
+outputDir: /local/output/csharp/
+generatorName: csharp
+gitUserId: FenrirServer
+gitRepoId: Fenrir.Api.DotNet
+releaseNote: "Auto-generated from Fenrir Cloud Sdk Templates repository: https://github.com/FenrirServer/Cloud.Sdk.Templates"
+additionalProperties:
+  apiName: Fenrir
+  packageGuid: "{499AE73A-063D-49FB-B911-9CAD2896E637}"
+  packageName: Fenrir.Api
+  packageVersion: 0.1.0
+  packageAuthors: "Fenrir Server"
+  packageCompany: "Fenrir Server"
+  packageCopyright: "Fenrir Server, 2024"
+  packageDescription: "Fenrir Cloud Api for .NET"
+  nullableReferenceTypes: false
+  targetFramework: net8.0
