@@ -18,3 +18,5 @@ additionalProperties:
 files:
   deploy.yaml:
     destinationFilename: .github/workflows/deploy.yaml
+  nuget.config:
+    destinationFilename: nuget.config
