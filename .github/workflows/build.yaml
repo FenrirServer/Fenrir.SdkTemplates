@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v1
 
       - name: Generate .NET SDK
-        run: docker run -v ${PWD}:/local openapitools/openapi-generator-cli generate -g csharp -c /local/configs/csharp.yaml -t /local/templates/csharp --openapi-normalizer SET_TAGS_FOR_ALL_OPERATIONS=fenrir
+        run: docker run -v ${PWD}:/local openapitools/openapi-generator-cli generate -g csharp -c /local/configs/csharp.yaml -t /local/templates/csharp --openapi-normalizer SET_TAGS_FOR_ALL_OPERATIONS=fenrir --ignore-file-override=/local/csharp.openapi-generator-ignore
 
       - name: Push to fenrir/Fenrir.Api.DotNet repo
         uses: cpina/github-action-push-to-another-repository@main

@@ -1,0 +1,3 @@
+output/csharp/git_push.sh
+output/csharp/appveyor.yml
+output/csharp/.openapi-generator

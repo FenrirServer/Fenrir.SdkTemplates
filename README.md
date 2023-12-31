@@ -14,7 +14,12 @@ This repository contains templates to generate Fenrir Cloud SDK from the [OpenAP
 To generate csharp SDKs:
 
 ```bash
-docker run -v ${PWD}:/local openapitools/openapi-generator-cli generate -g csharp -c /local/configs/csharp.yaml -t /local/templates/csharp --openapi-normalizer SET_TAGS_FOR_ALL_OPERATIONS=fenrir
+docker run -v ${PWD}:/local openapitools/openapi-generator-cli generate \
+    -g csharp \
+    -c /local/configs/csharp.yaml \
+    -t /local/templates/csharp \
+    --openapi-normalizer SET_TAGS_FOR_ALL_OPERATIONS=fenrir \
+    --ignore-file-override=/local/csharp.openapi-generator-ignore
 ```
 
 

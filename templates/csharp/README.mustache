@@ -31,7 +31,7 @@ namespace Example
             Configuration config = new Configuration();
             config.AccessToken = "YOUR_FENRIR_TOKEN";
 
-            var api = new ApplicationsApi(config);
+            var api = new FenrirApi(config);
             
             try
             {

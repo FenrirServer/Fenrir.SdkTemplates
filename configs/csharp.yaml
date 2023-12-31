@@ -15,3 +15,6 @@ additionalProperties:
   packageDescription: "Fenrir Cloud Api for .NET"
   nullableReferenceTypes: false
   targetFramework: net8.0
+files:
+  deploy.yaml:
+    destinationFilename: .github/workflows/deploy.yaml
