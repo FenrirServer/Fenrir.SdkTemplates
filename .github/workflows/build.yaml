@@ -37,7 +37,7 @@ jobs:
         env:
           SSH_DEPLOY_KEY: ${{ secrets.FENRIR_API_PYTHON_SSH_DEPLOY_KEY }}
         with:
-          source-directory: 'output/csharp'
+          source-directory: 'output/python'
           destination-github-username: 'fenrirserver'
           destination-repository-name: 'Fenrir.Api.Python'
           user-email: bot@fenrircloud.com
