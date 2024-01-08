@@ -1,0 +1,14 @@
+inputSpec: https://raw.githubusercontent.com/FenrirServer/openapi/master/fenrir-openapi-spec.yaml
+outputDir: /local/output/python/
+generatorName: python
+gitUserId: FenrirServer
+gitRepoId: Fenrir.Api.Python
+releaseNote: "Auto-generated from Fenrir Cloud Sdk Templates repository: https://github.com/FenrirServer/Cloud.Sdk.Templates"
+additionalProperties:
+  packageName: fenrir_api
+  packageVersion: 0.1.0
+  projectName: fenrir-api
+files:
+  deploy.yaml:
+    destinationFilename: .github/workflows/deploy.yaml
+

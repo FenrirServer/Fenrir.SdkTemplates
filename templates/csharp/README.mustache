@@ -12,7 +12,7 @@ Please refer to the [Cloud.Sdk.Templates](https://github.com/FenrirServer/Cloud.
 You can install this from NuGet repository:
 
 ```bash
-Install-Package Fenrir.Api.DotNet
+Install-Package Fenrir.Api
 ```
 
 ## Getting Started

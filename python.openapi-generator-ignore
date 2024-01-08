@@ -1,0 +1,4 @@
+output/python/.openapi-generator
+output/python/.gitlab-ci.yml
+output/python/.travis.yml
+output/python/git_push.sh
