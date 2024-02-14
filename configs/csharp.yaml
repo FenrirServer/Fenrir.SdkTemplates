@@ -8,7 +8,7 @@ additionalProperties:
   apiName: Fenrir
   packageGuid: "{499AE73A-063D-49FB-B911-9CAD2896E637}"
   packageName: Fenrir.Api
-  packageVersion: 0.1.0
+  packageVersion: 0.1.4
   packageAuthors: "Fenrir Server"
   packageCompany: "Fenrir Server"
   packageCopyright: "Fenrir Server, 2024"

@@ -6,7 +6,7 @@ gitRepoId: Fenrir.Api.Python
 releaseNote: "Auto-generated from Fenrir Cloud Sdk Templates repository: https://github.com/FenrirServer/Cloud.Sdk.Templates"
 additionalProperties:
   packageName: fenrir_api
-  packageVersion: 0.1.0
+  packageVersion: 0.1.4
   projectName: fenrir-api
 files:
   deploy.yaml:
